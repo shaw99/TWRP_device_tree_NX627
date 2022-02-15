@@ -1,0 +1,15 @@
+# mount point       fstype    device                                                                flags
+/system             ext4      /dev/block/bootdevice/by-name/system                                  flags=display="System";backup=1;
+/system_image       emmc      /dev/block/bootdevice/by-name/system                                  flags=display="System image";backup=1;flashimg=1;
+/vendor             ext4      /dev/block/bootdevice/by-name/vendor                                  flags=display="Vendor";backup=1;
+/vendor_image       emmc      /dev/block/bootdevice/by-name/vendor                                  flags=display="Vendor image";backup=1;flashimg=1;
+/data               f2fs      /dev/block/bootdevice/by-name/userdata                                flags=display="Data";
+/cache              ext4      /dev/block/bootdevice/by-name/cache                                   flags=display="Cache";
+/boot               emmc      /dev/block/bootdevice/by-name/boot                                    flags=display="Boot";backup=1;flashimg=1;
+/recovery           emmc      /dev/block/bootdevice/by-name/recovery                                flags=display="Recovery";backup=1;flashimg=1;
+/recovery2          emmc      /dev/block/bootdevice/by-name/recovery2                               flags=display="Recovery2";
+/misc               emmc      /dev/block/bootdevice/by-name/misc                                    flags=display="Misc";backup=1;flashimg=1;
+/dtbo               emmc      /dev/block/bootdevice/by-name/dtbo                                    flags=display="Dtbo";backup=1;flashimg=1;
+/vbmeta             emmc      /dev/block/bootdevice/by-name/vbmeta                                  flags=display="Vbmeta";
+/usba               exfat     /dev/block/sdg1                                                       flags=display="Usba";
+/usba_sdcard        exfat     /dev/block/sdg1                                                       flags=display="Usba_sdcard";

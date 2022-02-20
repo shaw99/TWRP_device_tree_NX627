@@ -18,8 +18,6 @@ Display | Lord: 2340x1080 pixels, 6.42 inches, Vice: 1520x720 pixels, 5.1 inches
 Camera  | Multiple cameras, 48 megapixel main lens, 16 megapixel wide Angle lens, 8 megapixel telephoto lens
 Camera  | 1/2 inch CMOS camera sensor, Fill light (two-color temperature) + soft light
 
-
-Kernel source for nubia Z20 - Unofficial 
 ===========================================
 
 ![nubia Z20](https://oss.static.nubia.cn/active/5d48dd2463fc329.png "nubia Z20")
